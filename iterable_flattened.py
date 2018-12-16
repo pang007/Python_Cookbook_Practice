@@ -18,3 +18,8 @@ def flatten(nested_list, ignore_type = (str)):
 
 for x in flatten(nested_list):
 	print(x)
+
+	
+# yield from (a) where a is a iterable/ generator is equivalent to
+# for i in a:
+#	yield i
